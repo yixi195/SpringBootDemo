@@ -9,7 +9,7 @@ SpringBoot学习项目
 1.安装好IDE和MYSQL环境</br>
 2.import选择pop.xml导入</br>
 3.运行DemoApplication [Started DemoApplication in 20.566 seconds (JVM running for 21.454) 代表Tomcat 运行启动成功] </br>
-4.在本地浏览器地址进行 api 接口测试
+4.在本地浏览器地址进行 api 接口测试(或者使用 Postman)
 
 
 ## API
