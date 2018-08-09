@@ -1,4 +1,4 @@
-package com.example.demo.bean;
+package com.ysl.demo.bean;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

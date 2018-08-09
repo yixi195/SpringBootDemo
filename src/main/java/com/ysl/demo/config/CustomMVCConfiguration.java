@@ -1,6 +1,6 @@
-package com.example.demo.config;
+package com.ysl.demo.config;
 
-import com.example.demo.interceptor.MyInterceptor;
+import com.ysl.demo.interceptor.MyInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;

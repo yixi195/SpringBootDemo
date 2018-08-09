@@ -1,4 +1,4 @@
-package com.example.demo.utils;
+package com.ysl.demo.utils;
 
 /**
  * 结果状态码

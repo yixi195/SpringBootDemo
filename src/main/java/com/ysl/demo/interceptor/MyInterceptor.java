@@ -1,4 +1,4 @@
-package com.example.demo.interceptor;
+package com.ysl.demo.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;

@@ -1,6 +1,6 @@
-package com.example.demo.repository;
+package com.ysl.demo.repository;
 
-import com.example.demo.bean.User;
+import com.ysl.demo.bean.User;
 import org.springframework.data.repository.CrudRepository;
 /**
  * 添加数据访问接口类 UserRepository.java

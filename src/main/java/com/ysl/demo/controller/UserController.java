@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.ysl.demo.controller;
 
-import com.example.demo.utils.ResultMsg;
-import com.example.demo.bean.User;
-import com.example.demo.repository.UserRepository;
-import com.example.demo.utils.ResultStatusCode;
+import com.ysl.demo.utils.ResultMsg;
+import com.ysl.demo.bean.User;
+import com.ysl.demo.repository.UserRepository;
+import com.ysl.demo.utils.ResultStatusCode;
 import com.mysql.jdbc.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.Modifying;
