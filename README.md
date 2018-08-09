@@ -14,9 +14,38 @@ SpringBoot学习项目
 
 ## API
 
-注册 127.0.0.1:8090/user/adduser2
-<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/zcyy.png" width=500 height=250 />
+注册用户 127.0.0.1:8090/user/adduser2</br>
+<div>
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/zcyy.png" width=800 height=450 />
 </div>
+</br>
+删除用户 127.0.0.1:8090/user/deleteuser?userId=15f6b1bfdf0b471bad2bc16d56178f9f</br>
+<div>
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/delete.png" width=800 height=450 />
+</div>
+<br/>
+<div>
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/deletehou.png" width=800 height=450 />
+</div>
+<br/>
+更新用户信息 127.0.0.1:8090/user/updateuser</br>
+<div>
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/updata.png" width=800 height=450 />
+</div>
+<br/>
+</br>
+<div>
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/xiugaihou.png" width=800 height=450 />
+</div>
+<br/>
+查询用户信息 127.0.0.1:8090/user/userInfo?userId=15f6b1bfdf0b471bad2bc16d56178f9f&token=b00b936abb464c298f0130dc333fe18c</br>
+<div>
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/cxxx.png" width=800 height=450 />
+</div>
+<br/>
+
+
+
 
 
 
