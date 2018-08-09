@@ -13,17 +13,14 @@ SpringBoot学习项目
 
 
 ## API
-<div align="center">
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/001.png"  width=268 height=457 />
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/002.png" width=268 height=457 />
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/003.png" width=268 height=457 />
 
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/004.png" width=268 height=457 />
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/005.png" width=268 height=457 />
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/006.png" width=268 height=457 />
-
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/007.png" width=268 height=457 />
-<img src="https://raw.githubusercontent.com/yixi195/YangZhiBo/master/screenshots/008.png" width=268 height=457 />
+注册 127.0.0.1:8090/user/adduser2
+<img src="https://raw.githubusercontent.com/yixi195/SpringBootDemo/master/screenshot/zcyy.png" width=500 height=250 />
 </div>
 
+
+
+
+## PS
+127.0.0.1是本地MYSQL默认地址
 
