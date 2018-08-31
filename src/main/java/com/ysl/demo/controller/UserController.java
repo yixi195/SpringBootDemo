@@ -1,5 +1,8 @@
 package com.ysl.demo.controller;
 
+import com.ysl.demo.bean.Auth;
+import com.ysl.demo.security.CheckLogin;
+import com.ysl.demo.utils.CommenUtils;
 import com.ysl.demo.utils.ResultMsg;
 import com.ysl.demo.bean.User;
 import com.ysl.demo.repository.UserRepository;
@@ -10,6 +13,7 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.UUID;
 
 /**
@@ -25,6 +29,7 @@ public class UserController {
     private UserRepository userRepository;
 
     /**
+     * 方法一: get
      * 获取用户信息  GET\POST都可以
      *
      * @param userId
@@ -32,6 +37,7 @@ public class UserController {
      */
     @RequestMapping("/userInfo")
     public Object getUser(String userId, String token) {
+        System.out.print("获取用户信息  GETPOST都可以");
         //根据 UserId和Token同时查询
         User userBean = userRepository.findByUserIdAndToken(userId, token);
         ResultMsg resultMsg;
@@ -41,6 +47,19 @@ public class UserController {
             resultMsg = new ResultMsg(ResultStatusCode.OK.getErrcode(), ResultStatusCode.OK.getErrmsg(), userBean);
         }
         return resultMsg;
+    }
+
+    /**
+     * 方法二: header获取
+     *  获取用户信息  GET\POST都可以
+     * @param httpServletRequest
+     */
+    @CheckLogin
+    @RequestMapping("/userInfo2")
+    public Object getUserInfo(HttpServletRequest httpServletRequest){
+        Auth auth = CommenUtils.getInstance().hsrToAuth(httpServletRequest);
+        User userBean = userRepository.findByUserIdAndToken(auth.getUserId(),auth.getToken());
+        return new ResultMsg(ResultStatusCode.OK.getErrcode(), ResultStatusCode.OK.getErrmsg(), userBean);
     }
 
     /**
